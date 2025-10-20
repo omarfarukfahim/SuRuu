@@ -1,0 +1,41 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Group to move the logo up slightly to make space for the text -->
+    <g transform="translate(0, -10)">
+        <!-- Pink Heart -->
+        <path d="M100 185.3c-16.2-13.2-64.2-51.4-64.2-96.8C35.8 48.8 61.3 25 90 25c17.3 0 32.8 8.5 42.4 21.6-1.1-1.3-2.3-2.5-3.5-3.6C121.2 36.5 111.1 31 100 31c-27.5 0-49.8 22.3-49.8 49.8 0 35.4 42.7 69.4 59.8 82.5 17.1-13.1 59.8-47.1 59.8-82.5 0-27.5-22.3-49.8-49.8-49.8-11.1 0-21.2 5.5-28.9 12.9.1-.1.2-.2.3-.3C107.2 43.5 122.7 25 140 25c28.7 0 54.2 23.8 54.2 63.5 0 45.4-48 83.6-64.2 96.8z" fill="#FF69B4"/>
+        
+        <!-- Teddy Bear -->
+        <g transform="translate(65, 75)">
+            <!-- Head -->
+            <circle cx="35" cy="30" r="25" fill="#D2B48C"/>
+            <circle cx="35" cy="30" r="26" fill="none" stroke="#A0522D" stroke-width="1"/>
+            
+            <!-- Ears -->
+            <circle cx="15" cy="10" r="8" fill="#D2B48C"/>
+            <circle cx="15" cy="10" r="8.5" fill="none" stroke="#A0522D" stroke-width="1"/>
+            <circle cx="55" cy="10" r="8" fill="#D2B48C"/>
+            <circle cx="55" cy="10" r="8.5" fill="none" stroke="#A0522D" stroke-width="1"/>
+            
+            <!-- Inner Ears -->
+            <circle cx="15" cy="10" r="4" fill="#F5DEB3"/>
+            <circle cx="55" cy="10" r="4" fill="#F5DEB3"/>
+            
+            <!-- Muzzle -->
+            <ellipse cx="35" cy="38" rx="12" ry="8" fill="#F5DEB3"/>
+            
+            <!-- Nose -->
+            <path d="M35 36 a2,1.5 0 0,1 0,3 a2,1.5 0 0,1 0,-3" fill="#654321"/>
+            
+            <!-- Eyes -->
+            <circle cx="28" cy="28" r="2" fill="black"/>
+            <circle cx="42" cy="28" r="2" fill="black"/>
+            
+            <!-- Mouth -->
+            <path d="M35 40 v3" stroke="#654321" stroke-width="1" stroke-linecap="round"/>
+            <path d="M30 43 q5 3 10 0" stroke="#654321" stroke-width="1" fill="none" stroke-linecap="round"/>
+        </g>
+    </g>
+    
+    <!-- Added Text -->
+    <text x="110" y="195" font-family="cursive" font-size="28" font-weight="bold" fill="#FF69B4" text-anchor="middle">Suruuu</text>
+</svg>

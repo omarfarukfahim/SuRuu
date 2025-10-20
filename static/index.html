@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your SuRuu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-brand">✨ Your SuRuu</div>
+        <ul class="nav-links">
+            <li><a href="/">Chat</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/magic">SuRuu Magic</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+    </nav>
+
+    <div class="chat-container">
+        <div class="header">
+            <h1>Welcome to SuRuu</h1>
+            <p>Your friendly chat companion. For images, start with <strong>/imagine</strong>.</p>
+        </div>
+        <div class="chat-box" id="chat-box">
+            <div class="message gemini-message">
+                <div class="message-content">
+                    <img src="https://via.placeholder.com/32/E6E6FA/4B4B4B?text=S" alt="SuRuu Icon" class="avatar">
+                    <p>Hello! How can I help you today?</p>
+                </div>
+                </div>
+        </div>
+        <div class="input-area">
+            <textarea id="user-input" placeholder="Type a message..."></textarea>
+            <button id="send-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+            </button>
+        </div>
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
